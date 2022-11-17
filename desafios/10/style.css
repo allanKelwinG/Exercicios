@@ -1,0 +1,151 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "idroid";
+    src: url(media/idroid.otf) format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(204, 255, 204);
+    width: auto;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #52d352, #0d660d);
+    color: white;
+    padding: 20px 10px 0px 10px;
+}
+
+header > h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    font-weight: bold;
+}
+
+header > p{
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    margin-top: 50px;
+
+}
+
+nav > a {
+    padding: 5px 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+}
+
+nav > a:hover{
+    background-color: #33ce33;
+    color: #0d660d;
+    border-radius: 5px;
+}
+
+#main1 {
+    background-color: white;
+    border-radius: 10px 10px 0px 0px;
+    margin: auto;
+    width: 900px;
+    max-width: 90%;
+    padding: 20px;
+    box-shadow: 3px 5px 15px rgba(0, 0, 0, 0.432);
+}
+
+#main2 {
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    margin: auto;
+    width: 900px;
+    max-width: 90%;
+    padding: 20px;
+    box-shadow: 3px 5px 15px rgba(0, 0, 0, 0.432);
+}
+
+main > h1{
+    font-family: "idroid" , sans-serif;
+    color: #0d660d;
+}
+
+h2 {
+    font-family: "idroid", sans-serif;
+    color: #0d660d;
+    background-image: linear-gradient(to right, #77ee879f, white);
+    padding-left: 5px;
+}
+
+.pmain {
+  text-align: justify;
+  text-indent: 20px;
+}
+
+#droids {
+    display: flex;
+    margin: auto;
+    width: 90%;
+}
+
+#bugdroid {
+    display: flex;
+    margin: auto;
+}
+
+#irina {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+
+}
+
+#lista {
+    background-color: #76e67669;
+    padding: 10px;
+    border-radius: 10px;
+    text-indent: 20px;
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(17, 59, 17);
+    padding: 1px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+ul {
+    display: inline;
+    list-style: none;
+    height: 50%;
+  }
+  
+ul li:before {
+    content: '✓';
+    font-weight: bolder;
+  }
+
+#divfilme {
+    margin: auto;
+    width: 900px;
+    max-width: 90%;
+    padding: 20px;
+    background-color: #0d660d;
+    padding: auto;
+    height: 500px;
+}
+
+#video {
+    width: 100%;
+    height: 100%;
+    
+}
+

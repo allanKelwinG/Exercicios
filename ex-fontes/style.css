@@ -1,0 +1,69 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@font-face {
+    font-family: 'Lonely';
+    src: url(fonts/Lonelyday.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+} /*opentype = otf
+    truetype = ttf */
+
+body {
+    background-image: linear-gradient(45deg, #1566AD,#96d2d4, #1566AD);
+    font-family: 'Roboto Mono', Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+main {
+    background-color: white;
+    border-radius: 20px;
+    width: 900px;
+    margin: auto;
+    padding: 30px;
+    padding-inline: 40px;
+    margin-top: 100px;
+    box-shadow: 5px 5px 15px #00000094 ;
+}
+ 
+h1 {
+    font-family: 'Lonely', sans-serif;
+    font-weight: normal;
+    font-size: 4em;
+    text-align: center;
+}
+
+h2 {
+    text-align: right;
+    font-size: 2em;
+    margin-top: 50px;
+}
+
+p {
+    text-align: justify;
+    text-indent: 30px;
+}
+
+div {
+    width: 100%;
+    display: flex;
+    color: white;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.562);
+    margin-bottom: 0px;
+}
+
+button {
+    background-color: #0a4170;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    cursor: pointer;
+    
+}
+
+
+button:hover {
+    background-color: #08223a;
+}
